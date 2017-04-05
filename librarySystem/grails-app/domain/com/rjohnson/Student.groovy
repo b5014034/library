@@ -2,24 +2,24 @@ package com.rjohnson
 
 class Student {
 
-    static constraints = {
-    }
-}
+  
 
 String	name
 String	email	
-String	username
+String	userName
 String	password
 String	studentId
-String	course
-}	
+Course	course	
+Library library
+
+	static hasMany=[books:Book]
 	
 
-    static constraints = {
+    	static constraints = {
 	
 	name blank:false, nullable:false
 	email blank:false, nullable:false
-	username:false, nullable:false
+	userName blank:false, nullable:false
 	password blank:false, nullable:false
 	studentId blank:false, nullable:false
 	course blank:false, nullable:false

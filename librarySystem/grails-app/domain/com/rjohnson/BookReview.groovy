@@ -2,19 +2,15 @@ package com.rjohnson
 
 class BookReview {
 
-    static constraints = {
-    }
-}
+  
 
-String 	book
+Book 	book
 Date 	dateCreated
-String	student
-string	review
-
-}	
+Student	student
+String	review
 	
 
-    static constraints = {
+   	static constraints = {
 	
 	book blank:false, nullable:false
 	dateCreated blank:false, nullable:false
