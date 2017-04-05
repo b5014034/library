@@ -14,6 +14,11 @@ class Book {
 	Boolean overdue
 	Library library
 
+
+	String toString()[
+
+return title]
+
 	static hasMany=[bookreviews:BookReview]
 
 

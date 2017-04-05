@@ -12,6 +12,11 @@ String	studentId
 Course	course	
 Library library
 
+String toString()[
+
+return name]
+
+
 	static hasMany=[books:Book]
 	
 
